@@ -7,6 +7,8 @@ This project serves as a learning exercise to understand Django's core concepts,
 
 ## Running the Project
 1. Clone the repository.
+2. Create the Conda Environment (`conda env create -f environment.yml`).
+3. Activate the Environment (`conda activate myenv`).
 2. Run migrations (`python manage.py migrate`).
 3. Start the development server (`python manage.py runserver`).
 4. Access the app at `http://127.0.0.1:8000/`.
